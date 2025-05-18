@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanya Studio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="assets/images/lanya.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <span class="logo">Lanya Studio</span>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-list">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero" class="hero">
+        <img src="assets/images/lanya.png" alt="Cute mascot eating" class="hero-img" style="width:180px;max-width:80vw;margin-bottom:1.5rem;border-radius:1.5rem;box-shadow:0 4px 24px rgba(37,99,235,0.10);">
+        <h1>Welcome to Lanya Studio</h1>
+        <p>We create random custom thingy.</p>
+        <a href="#services" class="cta-btn">See Our Services</a>
+    </section>
+    <main>
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-globe fa-2x"></i><br>
+                    Custom Websites
+                </li>
+                <li>
+                    <i class="fa-brands fa-discord fa-2x"></i><br>
+                    Discord Bots
+                </li>
+                <li>
+                    <i class="fa-solid fa-desktop fa-2x"></i><br>
+                    Desktop Applications
+                </li>
+            </ul>
+        </section>
+        <section id="works" class="works">
+            <h2>Our Works</h2>
+            <div class="work-list" id="work-list">
+                <!-- Project cards will be injected here by projects.js -->
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <div class="contact-methods">
+                <button class="contact-btn" onclick="window.location.href='mailto:mail@dapirates.xyz'" title="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </button>
+                <button class="contact-btn" onclick="window.open('https://discord.gg/zvmJzpNRzz','_blank')" title="Discord">
+                    <i class="fa-brands fa-discord"></i>
+                </button>
+                <button class="contact-btn" onclick="window.open('https://github.com/birajrai/lanyastudio-website/issues','_blank')" title="GitHub Issues">
+                    <i class="fa-brands fa-github"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lanya Studio. All rights reserved.</p>
+    </footer>
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

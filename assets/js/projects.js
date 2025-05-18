@@ -11,13 +11,13 @@ const projects = [
     image: "assets/projects/meropatra.png", // Replace with your actual image path
     description: "An online news portal delivering the latest updates, articles, and breaking news from Nepal and beyond.",
     technology_used: ["nextjs", "tailwindcss", "react-icons"],
-    preview_link: "https://github.com/your-discord-bot"
+    preview_link: "https://www.meropatra.com/"
   },
   {
     title: "Kali Pokhari",
     image: "assets/projects/kalipokhari.png", // Replace with your actual image path
     description: "A local community website focused on the Kalipokhari region, featuring news, events, and cultural highlights.",
     technology_used: ["wordpress", "elementor", "custom-theme"],
-    preview_link: "https://your-desktop-app-link.com"
+    preview_link: "https://kalipokhari.com/"
   }
 ];
